@@ -1,0 +1,34 @@
+.todo_list{
+    text-align: center;
+    width: 60%;
+}
+
+.todo-item{
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.todo-item-content{
+    flex-basis: 90%;
+}
+
+.todo-item-edit{
+    flex-basis: 10%;
+    padding-top:16px;
+}
+
+#submit_button{
+    margin-top:10px;
+}
+
+.todo-modal-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color: #da5000;
+}
